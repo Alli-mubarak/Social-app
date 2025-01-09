@@ -18,46 +18,46 @@ const ppBtn = document.querySelector(".pp-saver");
 
     btn[1].onclick = () =>{
         input[1].style.display = "inline";
-        input[1].value = span[0].innerHTML;
-        span[0].style.display = "none";
+        input[1].value = span[2].innerHTML;
+        span[2].style.display = "none";
         btn[1].style.display = "none";
         btn[2].style.display = "inline";
     }
     
     btn[2].onclick = () =>{
         input[1].style.display = "none";
-        span[0].innerHTML = input[1].value;
-        span[0].style.display = "inline";
+        span[2].innerHTML = input[1].value;
+        span[2].style.display = "inline";
         btn[1].style.display = "inline";
         btn[2].style.display = "none";
     }
     
     btn[3].onclick = () =>{
         input[2].style.display = "inline";
-        input[2].value = span[1].innerHTML;
-        span[1].style.display = "none";
+        input[2].value = span[3].innerHTML;
+        span[3].style.display = "none";
         btn[3].style.display = "none";
         btn[4].style.display = "inline";
     }
     btn[4].onclick = () =>{
         input[2].style.display = "none";
-        span[1].innerHTML = input[2].value;
-        span[1].style.display = "inline";
+        span[3].innerHTML = input[2].value;
+        span[3].style.display = "inline";
         btn[3].style.display = "inline";
         btn[4].style.display = "none";
     }
     btn[5].onclick = () =>{
         input[3].style.display = "inline";
-        input[3].value = span[2].innerHTML;
-        span[2].style.display = "none";
+        input[3].value = span[4].innerHTML;
+        span[4].style.display = "none";
         btn[5].style.display = "none";
         btn[6].style.display = "inline";
         
     }
     btn[6].onclick = () =>{
         input[3].style.display = "none";
-        span[2].innerHTML = input[3].value;
-        span[2].style.display = "inline";
+        span[4].innerHTML = input[3].value;
+        span[4].style.display = "inline";
         btn[5].style.display = "inline";
         btn[6].style.display = "none";
     }
