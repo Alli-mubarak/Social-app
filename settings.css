@@ -1,0 +1,67 @@
+body{
+    margin: 0;padding: 0;
+    background: rgb(23, 50, 50);
+    color: whitesmoke;
+    text-align: center;
+    max-height: 100vh;
+}
+section{
+    margin: 50px auto;
+    width: 90%;
+}
+.home-arrow a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 30px;
+}
+.home-arrow{
+    cursor: pointer;
+    width: 50px;
+    transform: rotate(-180deg);
+}
+.profile-picture{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+.profile-picture img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+.pp-input{
+    position: absolute;
+    left: 0;
+    top: 60%;
+    color: #000;
+    display: none;
+}
+.pp-saver{
+    display: none;
+}
+.profile-details{
+    width: 80%;
+    margin: 50px auto;
+}
+.profile-details input{
+    width: 60%;
+    display: none;
+}
+.profile-details button{
+    width: 30%;
+}
+button{
+    cursor: pointer;
+    background: #ddd;
+    border-radius: 5px;
+}
+.saver{
+    display: none;
+}
+.hider{
+    display: inline;
+}

@@ -1,0 +1,82 @@
+body{
+    margin: 0;padding: 0;
+    background: rgb(23, 50, 50);
+    color: whitesmoke;
+    text-align: center;
+    max-height: 100vh;
+}
+main{
+    width: 90%;
+    margin: 50px auto;
+    padding: 5px;
+    
+}
+.first{
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tabs{
+    width: 90%;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tab-box{
+    margin: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    padding: 5px 0;
+}
+.tab-bg{
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    background: rgb(18, 27, 27);
+    z-index: -1;
+    left: 0;
+    transition: 0.5s;
+    border-radius: 5px 0 0 5px;
+}
+.tab-box span{
+    cursor: pointer;
+    font-family: times;
+    font-weight: bold;
+    font-size: 25px;
+}
+.tab-selected{
+    text-shadow: 0 2px red;
+}
+.profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.content{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.content div{
+    overflow: hidden;
+}
+.home-page{
+    width: 100%;
+}
+.stories-page{
+    width: 0;
+}
+h1{
+    margin-top: 150px;
+}

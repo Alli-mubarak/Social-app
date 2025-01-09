@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="settings.css">
+    <title>Social app</title>
+</head>
+<body>
+    <main>
+    <section class="homepage">
+    <section class="first">
+        <div class="tabs">
+        <div class="tab-box">
+        <span class="home">Home</span>
+        <span class="stories">Stories</span>
+        <div class="tab-bg"></div>
+        </div>
+        </div>
+
+        <div class="profile">
+        <a href="#" onclick=" getSettings()">
+            <img src="profilePic.png" alt="profile picture" id="dp">
+        </a>
+        </div>
+    </section>
+    <section class="content">
+        <div class="home-page">
+            <h1>This is home.</h1>
+        </div>
+        <div class="stories-page">
+            <h1>Stories will appear here.</h1>
+        </div>
+    </section>
+    </section>
+    <section class="settings">
+        <div class="home-arrow"><a href="#" onclick="goHome()">&#x2799;</a></div>
+        <div class="profile-picture">
+            <img src="profilePic.png" alt="profile-picture">
+            <input class="pp-input" type="file" name="" id="">
+            <button class="pp-saver" disabled>save</button>
+
+        </div>
+        <div class="profile-details">
+           <span>Newuser001</span> <input type="text" class="Username"> <button>Edit Username</button><button class="saver">save</button><br><br>
+            <span>New User</span><input type="text"> <button>Edit Name</button><button class="saver">save</button><br><br>
+           <span>2021-09-09</span> <input type="date" class="DOB"> <button>Change Date Of Birth</button><button class="saver">save</button>
+            
+        </div>
+
+        <button>Change profile picture</button>
+    
+    </section>
+    </main>
+<script src="script.js"></script>
+<script src="settings.js"></script>
+
+</body>
+</html>
